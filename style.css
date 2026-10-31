@@ -1,0 +1,99 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #080d18;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #183b55;
+}
+
+header h2 {
+  color: #39caff;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+#status {
+  color: #37e6a1;
+  font-size: 11px;
+}
+
+main {
+  padding: 35px 18px;
+}
+
+.orb {
+  width: 125px;
+  height: 125px;
+  margin: 20px auto;
+  border: 2px solid #35caff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #5bdcff;
+  font-size: 55px;
+  box-shadow: 0 0 35px #087fae;
+}
+
+h1 {
+  color: #51d5ff;
+}
+
+p {
+  color: #aabbd0;
+}
+
+.modes {
+  display: flex;
+  gap: 7px;
+  margin: 30px 0;
+}
+
+button {
+  background: #102b43;
+  color: #59d8ff;
+  border: 1px solid #237ca2;
+  padding: 12px 9px;
+  border-radius: 10px;
+  flex: 1;
+}
+
+button:active {
+  background: #17618a;
+}
+
+#chat {
+  background: #101b2b;
+  padding: 18px;
+  border-radius: 12px;
+  min-height: 100px;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.input-area {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  min-width: 0;
+  flex: 1;
+  background: #101b2b;
+  color: white;
+  padding: 14px;
+  border: 1px solid #237ca2;
+  border-radius: 10px;
+}
