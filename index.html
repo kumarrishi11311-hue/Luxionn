@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d18">
+  <title>LUXIONN AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h2>LUXIONN</h2>
+    <span id="status">● SYSTEM ONLINE</span>
+  </header>
+
+  <main>
+    <div class="orb">L</div>
+
+    <h1>I'm LUXIONN</h1>
+    <p>Your Personal AI Assistant</p>
+
+    <div class="modes">
+      <button onclick="setMode('Quick')">Quick</button>
+      <button onclick="setMode('Thinking')">Thinking</button>
+      <button onclick="setMode('Deep Thinking')">
+        Deep Thinking
+      </button>
+    </div>
+
+    <p id="mode">Mode: Quick</p>
+
+    <div id="chat">
+      <p>LUXIONN: System ready. How can I assist you?</p>
+    </div>
+
+    <div class="input-area">
+      <input id="message" placeholder="Talk to LUXIONN...">
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
